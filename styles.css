@@ -357,8 +357,68 @@
   border-top: 1px solid gray;
   padding-top: 1.5rem;
 }
-
-
+.explore__options{
+  width: 100%;
+}
+.explore__options h2{
+  font-size: 3rem;
+  font-weight: 500;
+}
+.explore__options .all_explore{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 3rem;
+}
+.all_explore .cuisine{
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid gray;
+  width: 80%;
+  margin: 0 125px;
+  border-radius: 5px;
+  background: white;
+}
+.all_explore .cuisine h5{
+  font-weight: 400;
+  color: rgb(28, 28, 28);
+  font-size: 20px;
+}
+.all_explore .restaurant{
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid gray;
+  width: 80%;
+  margin: 0 125px;
+  border-radius: 5px;
+  background: white;
+}
+.all_explore .restaurant h5{
+  font-weight: 400;
+  color: rgb(28, 28, 28);
+  font-size: 20px;
+}
+.all_explore .delivercity{
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid gray;
+  width: 80%;
+  margin: 0 125px;
+  border-radius: 5px;
+  background: white;
+}
+.all_explore .delivercity h5{
+  font-weight: 400;
+  color: rgb(28, 28, 28);
+  font-size: 20px;
+}
 @media only screen and (max-width:900px){
   .navigation_container{
     display: grid;
